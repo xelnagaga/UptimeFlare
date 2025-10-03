@@ -2,10 +2,10 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "adnaix's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://adnaixo-bfn8n.hf.space/', label: 'GitHub' },
+    { link: 'https://adnaixo-bfn8n.hf.space/', label: 'Blog' },
     { link: 'https://tai-kiiv.onrender.com/', label: 'Blog' },
     { link: 'mailto:adnaixleo@gmail.com', label: 'Email Me', highlight: true },
   ],
