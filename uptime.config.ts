@@ -5,8 +5,8 @@ const pageConfig: PageConfig = {
   title: "adnaix's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://adnaixo-bfn8n.hf.space/', label: 'Blog' },
-    { link: 'https://tai-kiiv.onrender.com/', label: 'Blog' },
+    { link: 'https://adnaixo-bfn8n.hf.space/', label: 'bfn8n' },
+    { link: 'https://tai-kiiv.onrender.com/', label: 'render' },
     { link: 'mailto:adnaixleo@gmail.com', label: 'Email Me', highlight: true },
   ],
   // [OPTIONAL] Group your monitors
