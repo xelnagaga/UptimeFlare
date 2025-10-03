@@ -11,7 +11,7 @@ const pageConfig: PageConfig = {
   ],
   // [重要] 将你的新 monitor ID 放在这里，这样它们才会显示在页面上
   group: {
-    '🌐 Public Services': ['hugging_face_service', 'render_service'], // <-- 修改这里，使用新的 monitor ID
+    '🌐 Public Services': ['hugging_face_service', 'render_service', 'grouper_service'], // <-- 修改这里，使用新的 monitor ID
   },
   favicon: '/favicon.ico',
   maintenances: {
@@ -46,6 +46,15 @@ const workerConfig: WorkerConfig = {
       target: 'https://tai-kiiv.onrender.com/',
       tooltip: 'Monitoring Render service to keep it alive.',
       statusPageLink: 'https://tai-kiiv.onrender.com/',
+    },
+    // 第三个链接的监控配置
+    {
+      id: 'grouper_service',
+      name: 'Grouper (Render.com)',
+      method: 'GET',
+      target: 'https://groupersteamlit.onrender.com/',
+      tooltip: 'Monitoring Grouper Streamlit service to keep it alive.',
+      statusPageLink: 'https://groupersteamlit.onrender.com/',
     },
   ],
   // 通知部分可以根据你的需求配置，如果不需要可以忽略
