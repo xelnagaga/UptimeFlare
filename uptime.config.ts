@@ -5,9 +5,9 @@ const pageConfig: PageConfig = {
   title: "lyc8503's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
+    { link: 'https://adnaixo-bfn8n.hf.space/', label: 'GitHub' },
+    { link: 'https://tai-kiiv.onrender.com/', label: 'Blog' },
+    { link: 'mailto:adnaixleo@gmail.com', label: 'Email Me', highlight: true },
   ],
   // [OPTIONAL] Group your monitors
   // If not specified, all monitors will be shown in a single list
